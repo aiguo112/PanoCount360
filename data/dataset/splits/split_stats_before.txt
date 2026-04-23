@@ -1,0 +1,18 @@
+# Split statistics BEFORE re-run (70/15/15 — 50/50 val/test of 30% holdout)
+
+## Per-split (from split_count_stats.csv)
+split,count,min,max,mean,median,std
+test,157,7,2682,164.27,101.0,253.34
+train,729,7,2535,155.98,103.0,185.01
+val,156,9,1237,153.8,103.5,168.24
+
+## Per-bin per-split (from split_bin_summary.csv)
+bin,train,val,test
+0-49,167,36,36
+50-99,185,39,40
+100-199,214,46,46
+200-299,78,17,17
+300-499,53,11,11
+500+,32,7,7
+
+Total: 1042 images.

@@ -1,0 +1,9 @@
+# PanoCrowdCount — training / eval
+torch
+torchvision
+opencv-python
+numpy
+matplotlib
+
+# PanoCount Analyzer GUI (main.py)
+PySide6>=6.5.0

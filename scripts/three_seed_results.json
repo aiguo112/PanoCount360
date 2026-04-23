@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "seed": 42,
+      "test_mae": 119.97638342721122,
+      "test_rmse": 302.05055989731585,
+      "best_val_mae": 96.97554907431969,
+      "converged": false
+    },
+    {
+      "seed": 123,
+      "test_mae": 120.00905612763904,
+      "test_rmse": 302.3230856764093,
+      "best_val_mae": 96.96623406043419,
+      "converged": false
+    },
+    {
+      "seed": 777,
+      "test_mae": 119.96829161871047,
+      "test_rmse": 301.98368822675116,
+      "best_val_mae": 96.98099660873413,
+      "converged": false
+    }
+  ],
+  "val_mae_mean": 96.97425991449602,
+  "val_mae_std": 0.00609533471136079,
+  "test_mae_mean": 119.98457705785357,
+  "test_mae_std": 0.01762172871532011,
+  "test_rmse_mean": 302.1191112668254,
+  "test_rmse_std": 0.14679265400520652,
+  "csrnet_baseline_test_mae": 78.89,
+  "all_beats_baseline": false,
+  "convergence_warning": true,
+  "seeds_did_not_converge": [
+    42,
+    123,
+    777
+  ],
+  "train_mode": "subprocess"
+}
