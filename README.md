@@ -43,7 +43,7 @@ If you need **early access for academic review, reproducibility, or research col
    - **Intended Publication** (if any):
    - **Agreement to Non-Commercial Academic Use Only** (Yes/No):
 
-2. **Send your request** to the corresponding authors at: **[Insert your contact email here]**.
+2. **Send your request** to the corresponding authors at: **arbi@mail.ustc.edu.cn**.
 
 3. **Subject line format**: `PanoCount Dataset Access Request - [Your Last Name]`
 
