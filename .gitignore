@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Checkpoints (too large for GitHub — host separately)
+checkpoints/*.pth
+*.npy
+*.zip
+*.tar.gz
+
+# Dataset
+dataset/images/
+dataset/density_maps/
+dataset/prepared/
+
+# Logs and outputs
+logs/
+results/
+analysis_outputs/
+
+# IDE
+.idea/
+.cursor/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+*.env

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or dataset, please cite our paper."
+title: "Beyond Perspective: Latitude-Aware Crowd Counting in Equirectangular Panoramic Imagery"
+authors:
+  - family-names: Arbi
+    given-names: Ghulam
+    affiliation: "School of Computer Science and Technology, University of Science and Technology of China"
+  - family-names: Zhang
+    given-names: Lu
+    affiliation: "Institute of Artificial Intelligence, Hefei Comprehensive National Science Center"
+  - family-names: Zhang
+    given-names: Yanyong
+    affiliation: "School of Computer Science and Technology, University of Science and Technology of China"
+repository-code: "https://github.com/aiguo112/PanoCount360"
+license: MIT
+year: 2025
+keywords:
+  - crowd-counting
+  - panoramic
+  - equirectangular
+  - deep-learning
+  - pytorch
+  - 360-degree
+  - surveillance
+  - dataset
