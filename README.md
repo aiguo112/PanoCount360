@@ -128,3 +128,22 @@ See [README-analyzer.md](README-analyzer.md) for details. Use a working PyTorch 
 Notes:
 - If `torch` isn't installed with a CUDA-enabled build compatible with your drivers, the script will tell you and exit. Install a matching PyTorch wheel from https://pytorch.org/get-started/locally/.
 - The script prints the device name and memory; if it shows your RTX 5070Ti (or similar), your GPU is visible to PyTorch.
+
+## Citation
+
+If you use PanoCount or CSRNet-LP in your research, please cite our paper:
+
+```bibtex
+@article{arbi2025panocount,
+  title     = {Beyond Perspective: Latitude-Aware Crowd Counting in Equirectangular Panoramic Imagery},
+  author    = {Arbi, Ghulam and Zhang, Lu and Zhang, Yanyong},
+  journal   = {IEEE Transactions on Circuits and Systems for Video Technology},
+  year      = {2025},
+  note      = {Under review}
+}
+```
+
+## License
+
+This code is released under the [MIT License](LICENSE).  
+The PanoCount dataset will be released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) upon paper acceptance.
