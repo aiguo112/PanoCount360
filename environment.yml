@@ -1,0 +1,58 @@
+# ═══════════════════════════════════════════════
+# PanoCount Analyzer — Environment
+# ═══════════════════════════════════════════════
+# RECOMMENDED SETUP:
+#   If you have a working conda env (e.g. "seg")
+#   with PyTorch + CUDA already installed,
+#   clone it instead of creating from scratch:
+#
+#   conda create --name panocount_gui --clone seg
+#
+# This avoids ALL DLL issues because the clone
+# uses the exact same working PyTorch build.
+#
+# Only use this yml file if you do NOT have
+# an existing working PyTorch environment:
+#   conda env create -f environment.yml
+# ═══════════════════════════════════════════════
+#
+# PanoCount Analyzer GUI — PyTorch (CUDA 11.8) via conda; Qt/OpenCV/Pillow via pip
+# to avoid win-64 conda solver conflicts between opencv/qt6 and pytorch/nvidia stacks.
+# Create: conda env create -f environment.yml
+# Update: conda env update -f environment.yml --prune
+# Or run: setup.bat (Windows) — clone mode recommended if "seg" exists
+name: panocount_gui
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+
+  # MSVC runtime (helps avoid WinError 182 on native DLLs)
+  - conda-forge::vs2015_runtime
+  - colorama=0.4.6
+
+  # PyTorch (CUDA 11.8; RTX-series friendly). GUI does not need torchaudio.
+  # NOTE: PyTorch 2.x ships nvfuser_codegen.dll; on some Windows setups it fails to load (WinError 182).
+  # Fix: run delete_nvfuser.bat, or remove Lib\site-packages\torch\lib\nvfuser_codegen.dll manually.
+  # Alternative env: pytorch=1.13.1, torchvision=0.14.1, pytorch-cuda=11.7 (no nvfuser), then:
+  #   conda env update -f environment.yml --prune
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - pytorch-cuda=11.8
+
+  # Scientific computing (conda — keeps BLAS stack consistent)
+  - numpy=1.24.3
+  - scipy=1.11.1
+  - matplotlib=3.7.2
+  - tqdm=4.65.0
+  - pyyaml=6.0.1
+
+  # GUI + imaging — pip avoids conda opencv/qt vs pytorch solver conflicts on Windows
+  - pip:
+    - pyside6==6.5.2
+    - opencv-python==4.8.0.76
+    - pillow==10.0.0
