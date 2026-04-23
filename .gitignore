@@ -22,7 +22,6 @@ analysis_outputs/
 
 # IDE
 .idea/
-.cursor/
 .vscode/
 
 # OS
