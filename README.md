@@ -25,8 +25,36 @@ This repository contains:
 
 *Figure 2: Graphical User Interface tool for counting and visualization*
 
-## Dataset
-PanoCount will be publicly released upon paper acceptance. To request early access for review, contact the corresponding authors.
+## Dataset Access Request
+
+The **PanoCount** dataset will be officially released upon paper acceptance. To ensure responsible use and manage access during the review/pre-release phase, we provide a formal request process.
+
+If you need **early access for academic review, reproducibility, or research collaboration**, please follow the procedure below:
+
+### 📝 How to Request Access
+
+1. **Fill out the request form** (or use the template below):
+   - **Your Name & Affiliation**:
+   - **Official Email** (institutional email preferred):
+   - **Purpose of Use** (e.g., reproducibility, method comparison, journal review, educational):
+   - **Intended Publication** (if any):
+   - **Agreement to Non-Commercial Academic Use Only** (Yes/No):
+
+2. **Send your request** to the corresponding authors at: **[Insert your contact email here]**.
+
+3. **Subject line format**: `PanoCount Dataset Access Request - [Your Last Name]`
+
+### ⏳ What to Expect
+
+- Requests are typically processed within **5-7 business days**.
+- Access will be granted via a **secure, private download link** (e.g., Google Drive, Dropbox, or institutional server).
+- You will be asked to agree to a simple **Dataset License Agreement** (non-commercial, academic use only, no redistribution).
+
+> **Note for Reviewers**: If you are reviewing our paper, please mention "Reviewer Access" in the subject line to prioritize your request.
+
+---
+
+*We plan to release the full dataset publicly after the peer-review process is complete. Thank you for your interest in PanoCount!*
 
 ## Checkpoints
 Pre-trained weights are provided in `checkpoints/`. Due to GitHub file size limits, download them from [release page](../../releases).
