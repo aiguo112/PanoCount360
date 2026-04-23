@@ -13,6 +13,18 @@ This repository contains:
 - Interactive GUI for inference on 360° images
 - Pre-trained model checkpoints
 
+## Sample Results
+
+### PanoCount Sample Images
+![PanoCount Samples](panocount_samples.png)
+
+*Figure 1: Sample outputs from PanoCount360 showing crowd counting results*
+
+### GUI Tool Interface
+![GU Tool](GU_Tool.jpg)
+
+*Figure 2: Graphical User Interface tool for counting and visualization*
+
 ## Dataset
 PanoCount will be publicly released upon paper acceptance. To request early access for review, contact the corresponding authors.
 
