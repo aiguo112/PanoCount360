@@ -134,7 +134,7 @@ Notes:
 If you use PanoCount or CSRNet-LP in your research, please cite our paper:
 
 ```bibtex
-@article{arbi2025panocount,
+@article{arbi2026panocount,
   title     = {Beyond Perspective: Latitude-Aware Crowd Counting in Equirectangular Panoramic Imagery},
   author    = {Arbi, Ghulam and Zhang, Lu and Zhang, Yanyong},
   Conference    = {The Pacific Rim International Conference on Artificial Intelligence (PRICAI)},
